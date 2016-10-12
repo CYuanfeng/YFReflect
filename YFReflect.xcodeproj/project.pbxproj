@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68EB5E301DAC87A6001B9F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB5E2F1DAC87A6001B9F34 /* AppDelegate.swift */; };
+		68EB5E321DAC87A6001B9F34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB5E311DAC87A6001B9F34 /* ViewController.swift */; };
+		68EB5E351DAC87A7001B9F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EB5E331DAC87A7001B9F34 /* Main.storyboard */; };
+		68EB5E371DAC87A7001B9F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68EB5E361DAC87A7001B9F34 /* Assets.xcassets */; };
+		68EB5E3A1DAC87A7001B9F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EB5E381DAC87A7001B9F34 /* LaunchScreen.storyboard */; };
+		68EB5E451DAC87A7001B9F34 /* YFReflectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB5E441DAC87A7001B9F34 /* YFReflectTests.swift */; };
+		68EB5E501DAC87A7001B9F34 /* YFReflectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB5E4F1DAC87A7001B9F34 /* YFReflectUITests.swift */; };
+		68EB5E601DAC8CBB001B9F34 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB5E5F1DAC8CBB001B9F34 /* Student.swift */; };
+		68EB5E621DAC8ED2001B9F34 /* NSObject+YFReflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB5E611DAC8ED2001B9F34 /* NSObject+YFReflect.swift */; };
+		68EB5E641DAC97E9001B9F34 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EB5E631DAC97E9001B9F34 /* Book.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68EB5E411DAC87A7001B9F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68EB5E241DAC87A6001B9F34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68EB5E2B1DAC87A6001B9F34;
+			remoteInfo = YFReflect;
+		};
+		68EB5E4C1DAC87A7001B9F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68EB5E241DAC87A6001B9F34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68EB5E2B1DAC87A6001B9F34;
+			remoteInfo = YFReflect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68EB5E2C1DAC87A6001B9F34 /* YFReflect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFReflect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EB5E2F1DAC87A6001B9F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68EB5E311DAC87A6001B9F34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68EB5E341DAC87A7001B9F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68EB5E361DAC87A7001B9F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68EB5E391DAC87A7001B9F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68EB5E3B1DAC87A7001B9F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EB5E401DAC87A7001B9F34 /* YFReflectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFReflectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EB5E441DAC87A7001B9F34 /* YFReflectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFReflectTests.swift; sourceTree = "<group>"; };
+		68EB5E461DAC87A7001B9F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EB5E4B1DAC87A7001B9F34 /* YFReflectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFReflectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EB5E4F1DAC87A7001B9F34 /* YFReflectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFReflectUITests.swift; sourceTree = "<group>"; };
+		68EB5E511DAC87A7001B9F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EB5E5F1DAC8CBB001B9F34 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		68EB5E611DAC8ED2001B9F34 /* NSObject+YFReflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+YFReflect.swift"; sourceTree = "<group>"; };
+		68EB5E631DAC97E9001B9F34 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68EB5E291DAC87A6001B9F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EB5E3D1DAC87A7001B9F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EB5E481DAC87A7001B9F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68EB5E231DAC87A6001B9F34 = {
+			isa = PBXGroup;
+			children = (
+				68EB5E2E1DAC87A6001B9F34 /* YFReflect */,
+				68EB5E431DAC87A7001B9F34 /* YFReflectTests */,
+				68EB5E4E1DAC87A7001B9F34 /* YFReflectUITests */,
+				68EB5E2D1DAC87A6001B9F34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68EB5E2D1DAC87A6001B9F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68EB5E2C1DAC87A6001B9F34 /* YFReflect.app */,
+				68EB5E401DAC87A7001B9F34 /* YFReflectTests.xctest */,
+				68EB5E4B1DAC87A7001B9F34 /* YFReflectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68EB5E2E1DAC87A6001B9F34 /* YFReflect */ = {
+			isa = PBXGroup;
+			children = (
+				68EB5E2F1DAC87A6001B9F34 /* AppDelegate.swift */,
+				68EB5E311DAC87A6001B9F34 /* ViewController.swift */,
+				68EB5E331DAC87A7001B9F34 /* Main.storyboard */,
+				68EB5E361DAC87A7001B9F34 /* Assets.xcassets */,
+				68EB5E381DAC87A7001B9F34 /* LaunchScreen.storyboard */,
+				68EB5E3B1DAC87A7001B9F34 /* Info.plist */,
+				68EB5E5F1DAC8CBB001B9F34 /* Student.swift */,
+				68EB5E611DAC8ED2001B9F34 /* NSObject+YFReflect.swift */,
+				68EB5E631DAC97E9001B9F34 /* Book.swift */,
+			);
+			path = YFReflect;
+			sourceTree = "<group>";
+		};
+		68EB5E431DAC87A7001B9F34 /* YFReflectTests */ = {
+			isa = PBXGroup;
+			children = (
+				68EB5E441DAC87A7001B9F34 /* YFReflectTests.swift */,
+				68EB5E461DAC87A7001B9F34 /* Info.plist */,
+			);
+			path = YFReflectTests;
+			sourceTree = "<group>";
+		};
+		68EB5E4E1DAC87A7001B9F34 /* YFReflectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68EB5E4F1DAC87A7001B9F34 /* YFReflectUITests.swift */,
+				68EB5E511DAC87A7001B9F34 /* Info.plist */,
+			);
+			path = YFReflectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68EB5E2B1DAC87A6001B9F34 /* YFReflect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EB5E541DAC87A7001B9F34 /* Build configuration list for PBXNativeTarget "YFReflect" */;
+			buildPhases = (
+				68EB5E281DAC87A6001B9F34 /* Sources */,
+				68EB5E291DAC87A6001B9F34 /* Frameworks */,
+				68EB5E2A1DAC87A6001B9F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFReflect;
+			productName = YFReflect;
+			productReference = 68EB5E2C1DAC87A6001B9F34 /* YFReflect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68EB5E3F1DAC87A7001B9F34 /* YFReflectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EB5E571DAC87A7001B9F34 /* Build configuration list for PBXNativeTarget "YFReflectTests" */;
+			buildPhases = (
+				68EB5E3C1DAC87A7001B9F34 /* Sources */,
+				68EB5E3D1DAC87A7001B9F34 /* Frameworks */,
+				68EB5E3E1DAC87A7001B9F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68EB5E421DAC87A7001B9F34 /* PBXTargetDependency */,
+			);
+			name = YFReflectTests;
+			productName = YFReflectTests;
+			productReference = 68EB5E401DAC87A7001B9F34 /* YFReflectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68EB5E4A1DAC87A7001B9F34 /* YFReflectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EB5E5A1DAC87A7001B9F34 /* Build configuration list for PBXNativeTarget "YFReflectUITests" */;
+			buildPhases = (
+				68EB5E471DAC87A7001B9F34 /* Sources */,
+				68EB5E481DAC87A7001B9F34 /* Frameworks */,
+				68EB5E491DAC87A7001B9F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68EB5E4D1DAC87A7001B9F34 /* PBXTargetDependency */,
+			);
+			name = YFReflectUITests;
+			productName = YFReflectUITests;
+			productReference = 68EB5E4B1DAC87A7001B9F34 /* YFReflectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68EB5E241DAC87A6001B9F34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yuan;
+				TargetAttributes = {
+					68EB5E2B1DAC87A6001B9F34 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					68EB5E3F1DAC87A7001B9F34 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 68EB5E2B1DAC87A6001B9F34;
+					};
+					68EB5E4A1DAC87A7001B9F34 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 68EB5E2B1DAC87A6001B9F34;
+					};
+				};
+			};
+			buildConfigurationList = 68EB5E271DAC87A6001B9F34 /* Build configuration list for PBXProject "YFReflect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68EB5E231DAC87A6001B9F34;
+			productRefGroup = 68EB5E2D1DAC87A6001B9F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68EB5E2B1DAC87A6001B9F34 /* YFReflect */,
+				68EB5E3F1DAC87A7001B9F34 /* YFReflectTests */,
+				68EB5E4A1DAC87A7001B9F34 /* YFReflectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68EB5E2A1DAC87A6001B9F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EB5E3A1DAC87A7001B9F34 /* LaunchScreen.storyboard in Resources */,
+				68EB5E371DAC87A7001B9F34 /* Assets.xcassets in Resources */,
+				68EB5E351DAC87A7001B9F34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EB5E3E1DAC87A7001B9F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EB5E491DAC87A7001B9F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68EB5E281DAC87A6001B9F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EB5E321DAC87A6001B9F34 /* ViewController.swift in Sources */,
+				68EB5E301DAC87A6001B9F34 /* AppDelegate.swift in Sources */,
+				68EB5E601DAC8CBB001B9F34 /* Student.swift in Sources */,
+				68EB5E641DAC97E9001B9F34 /* Book.swift in Sources */,
+				68EB5E621DAC8ED2001B9F34 /* NSObject+YFReflect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EB5E3C1DAC87A7001B9F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EB5E451DAC87A7001B9F34 /* YFReflectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EB5E471DAC87A7001B9F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EB5E501DAC87A7001B9F34 /* YFReflectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68EB5E421DAC87A7001B9F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68EB5E2B1DAC87A6001B9F34 /* YFReflect */;
+			targetProxy = 68EB5E411DAC87A7001B9F34 /* PBXContainerItemProxy */;
+		};
+		68EB5E4D1DAC87A7001B9F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68EB5E2B1DAC87A6001B9F34 /* YFReflect */;
+			targetProxy = 68EB5E4C1DAC87A7001B9F34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68EB5E331DAC87A7001B9F34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68EB5E341DAC87A7001B9F34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68EB5E381DAC87A7001B9F34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68EB5E391DAC87A7001B9F34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68EB5E521DAC87A7001B9F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68EB5E531DAC87A7001B9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68EB5E551DAC87A7001B9F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YFReflect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yuan.com.cn.YFReflect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68EB5E561DAC87A7001B9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YFReflect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yuan.com.cn.YFReflect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68EB5E581DAC87A7001B9F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YFReflectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yuan.com.cn.YFReflectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFReflect.app/YFReflect";
+			};
+			name = Debug;
+		};
+		68EB5E591DAC87A7001B9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YFReflectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yuan.com.cn.YFReflectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFReflect.app/YFReflect";
+			};
+			name = Release;
+		};
+		68EB5E5B1DAC87A7001B9F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YFReflectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yuan.com.cn.YFReflectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YFReflect;
+			};
+			name = Debug;
+		};
+		68EB5E5C1DAC87A7001B9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YFReflectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yuan.com.cn.YFReflectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YFReflect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68EB5E271DAC87A6001B9F34 /* Build configuration list for PBXProject "YFReflect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EB5E521DAC87A7001B9F34 /* Debug */,
+				68EB5E531DAC87A7001B9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EB5E541DAC87A7001B9F34 /* Build configuration list for PBXNativeTarget "YFReflect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EB5E551DAC87A7001B9F34 /* Debug */,
+				68EB5E561DAC87A7001B9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68EB5E571DAC87A7001B9F34 /* Build configuration list for PBXNativeTarget "YFReflectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EB5E581DAC87A7001B9F34 /* Debug */,
+				68EB5E591DAC87A7001B9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68EB5E5A1DAC87A7001B9F34 /* Build configuration list for PBXNativeTarget "YFReflectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EB5E5B1DAC87A7001B9F34 /* Debug */,
+				68EB5E5C1DAC87A7001B9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68EB5E241DAC87A6001B9F34 /* Project object */;
+}
